@@ -1,5 +1,9 @@
 
-var app = angular.module('MyAngularApp',[]);
+var app = angular.module('crmApp',[
+    'mainCtrl',
+    'app.routes'
+
+]);
 
 //var app = angular.module('MyAngularApp', [], function($httpProvider) {
 //	  // Use x-www-form-urlencoded Content-Type

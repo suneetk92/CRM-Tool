@@ -14,9 +14,9 @@ MongoClient.connect(url, function(err, db) {
 });
 
 app.use(express.static(__dirname+'/public'));
-app.get('/page',function(req,res){
-	res.sendFile(__dirname+'/public/view/index.html');
+app.get('/',function(req,res){
+	res.sendFile(__dirname+'/public/index.html');
 	});
 
 app.listen(8081);
-console.log('Server running at http://127.0.0.1:1337/');
+console.log('Server running at http://localhoost:3000');
