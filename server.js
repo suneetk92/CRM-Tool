@@ -19,4 +19,4 @@ app.get('/',function(req,res){
 	});
 
 app.listen(8081);
-console.log('Server running at http://localhoost:3000');
+console.log('Server running at http://localhoost:8081');
